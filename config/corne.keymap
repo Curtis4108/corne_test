@@ -91,10 +91,10 @@
 
         sym {
             bindings = <
-&trans  &kp LS(LBRC)   &kp LS(AMPS)    &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)     &trans  &kp LESS_THAN  &kp GREATER_THAN  &trans    &trans         &trans
-&trans  &kp LS(COLON)  &kp LS(DOLLAR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)     &trans  &kp LSHFT      &kp LCTRL         &kp LALT  &kp BACKSLASH  &trans
-&trans  &kp LS(TILDE)  &kp LS(EXCL)    &kp LS(AT)     &kp LS(POUND)  &kp LS(PIPE)     &trans  &trans         &trans            &trans    &trans         &trans
-                                       &kp LS(LPAR)   &kp LS(RPAR)   &kp LS(UNDER)    &trans  &trans         &trans
+&kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LS(AMPS)    &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)     &trans  &kp LESS_THAN  &kp GREATER_THAN  &trans    &trans         &trans
+&trans          &kp LS(COLON)    &kp LS(DOLLAR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)     &trans  &kp LSHFT      &kp LCTRL         &kp LALT  &kp BACKSLASH  &trans
+&trans          &kp LS(TILDE)    &kp LS(EXCL)    &kp LS(AT)     &kp LS(POUND)  &kp LS(PIPE)     &trans  &trans         &trans            &trans    &trans         &trans
+                                                 &kp LS(LPAR)   &kp LS(RPAR)   &kp LS(UNDER)    &trans  &trans         &trans
             >;
         };
 
